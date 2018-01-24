@@ -39,7 +39,6 @@
 #error This class requires automatic reference counting
 #endif
 
-
 @implementation NSObject (FXKeychainPropertyListCoding)
 
 - (id)FXKeychain_propertyListRepresentation
