@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		72C6171B1AA3949C0085F425 /* FXKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FXKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C6171B1AA3949C0085F425 /* FXKeychainMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FXKeychainMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C6171F1AA3949C0085F425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72C617201AA3949C0085F425 /* FXKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXKeychain.h; sourceTree = "<group>"; };
 		72C617371AA394EE0085F425 /* FXKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXKeychain.m; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		72C6171C1AA3949C0085F425 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72C6171B1AA3949C0085F425 /* FXKeychain.framework */,
+				72C6171B1AA3949C0085F425 /* FXKeychainMac.framework */,
 				72C6173E1AA3951C0085F425 /* FXKeychain.framework */,
 			);
 			name = Products;
@@ -111,7 +111,7 @@
 			);
 			name = "FXKeychain-Mac";
 			productName = FXKeychain;
-			productReference = 72C6171B1AA3949C0085F425 /* FXKeychain.framework */;
+			productReference = 72C6171B1AA3949C0085F425 /* FXKeychainMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		72C6173D1AA3951C0085F425 /* FXKeychain-iOS */ = {
@@ -299,7 +299,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				PRODUCT_NAME = FXKeychain;
+				PRODUCT_NAME = FXKeychainMac;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -317,7 +317,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				PRODUCT_NAME = FXKeychain;
+				PRODUCT_NAME = FXKeychainMac;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
